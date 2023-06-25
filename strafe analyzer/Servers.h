@@ -48,6 +48,9 @@ struct AllowedServers
 
 	static void Initialize()
 	{
+		Server australisEU("Australis EU", "176.9.2.59", "27115", Gamemodes::BHOP, ENGINE_CSS);
+		servers.push_back(australisEU);
+		
 		Server lacunaHopsNA("LacunaHops NA", "162.248.92.42", "27015", Gamemodes::BHOP, ENGINE_CSS);
 		servers.push_back(lacunaHopsNA);
 
